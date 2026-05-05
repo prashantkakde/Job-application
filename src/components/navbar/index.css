@@ -1,0 +1,21 @@
+nav {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: rgb(100, 99, 99);
+}
+
+.my-nav {
+  display: flex;
+  list-style-type: none;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-container{
+  width:10px;
+}
+
