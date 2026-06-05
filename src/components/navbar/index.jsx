@@ -27,10 +27,12 @@ const Navbar=()=>{
                 <li>
                     <Link to="/Jobs" style={{color:"white",textDecoration:"none"}}>Jobs</Link>
                 </li>
-
+                <li>
+               <Link to="/login" onClick={onLogout}  className="btn btn-primary ">Logout</Link>
+              </li>
              </ul>
 
-              <Link to="/login" onClick={onLogout}  className="btn btn-primary ">Logout</Link>
+             
             
         </nav>
     )
